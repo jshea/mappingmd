@@ -1,4 +1,5 @@
-# Chris
+# Angular, Mapping and Material Design
+This is a learning and experimentation project.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
