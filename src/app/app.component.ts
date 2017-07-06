@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import { MdSidenavContainer, MdSidenav,
-         MdButtonModule, MdCard, MdToolbar,
-         MdList, MdListItem } from '@angular/material';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +6,18 @@ import { MdSidenavContainer, MdSidenav,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Chris\'s sales wack-a-doodle';
+  title = 'Mapping and Material Design';
+
   lat: number = 33.9049418;
   lng: number = -117.9298275;
   zoomLevel: number = 14;
+
+  data = [
+    {line1: 'One',   line2: '1'},
+    {line1: 'Two',   line2: '2'},
+    {line1: 'Three', line2: '3'},
+    {line1: 'Four',  line2: '4'},
+    {line1: 'Five',  line2: '5'},
+    {line1: 'Six',   line2: '6'}
+  ];
 }
