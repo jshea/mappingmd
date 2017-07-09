@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpModule } from '@angular/http';
 
 import 'hammerjs';
 
-import { MdButtonModule, MdCardModule, MdIconModule, MdGridListModule, MdListModule,
-         MdMenuModule, MdSidenavModule, MdToolbarModule } from '@angular/material';
+import {
+  MdButtonModule, MdCardModule, MdIconModule, MdGridListModule, MdListModule,
+  MdMenuModule, MdSidenavModule, MdToolbarModule
+} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { AgmCoreModule } from '@agm/core';
@@ -17,6 +20,7 @@ import { AgmCoreModule } from '@agm/core';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpModule,
     MdButtonModule,
     MdCardModule,
     MdIconModule,
@@ -26,7 +30,7 @@ import { AgmCoreModule } from '@agm/core';
     MdSidenavModule,
     MdToolbarModule,
     AgmCoreModule.forRoot({
-      apiKey: ''
+      apiKey: 'AIzaSyAV13tDuDS66DywLzKZ4mZXJQM2CnbRL6Y'
     })
   ],
   providers: [],
