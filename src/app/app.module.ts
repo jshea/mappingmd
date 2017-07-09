@@ -30,7 +30,7 @@ import { AgmCoreModule } from '@agm/core';
     MdSidenavModule,
     MdToolbarModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAV13tDuDS66DywLzKZ4mZXJQM2CnbRL6Y'
+      apiKey: ''
     })
   ],
   providers: [],
